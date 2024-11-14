@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNCTIONS,SWITCH STATEMENTS, WHILE… DOWHILE LOOPS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>FUNCTIONS,SWITCH STATEMENTS, WHILE… DOWHILE LOOPS <br>chapter # 38-44</h2>
+
+<!-- QUESTION# 1 -->
+<h1>1)Calculate the value of a power b:</h1>
+
+<label for="base">Base (a): </label><br>
+<input type="number" id="base" placeholder="Enter base (a)" required>
+<br><br>
+
+<label for="exponent">Exponent (b): </label><br>
+<input type="number" id="exponent" placeholder="Enter exponent (b)" required>
+<br><br>
+<button class="btn" onclick="calculatePower()">Calculate Power</button>
+
+<p class="result">RESULT : </p>
+
+
+<!-- QUESTION# 2 -->
+
+<h1>2)Leap year or not:</h1>
+
+<label for="year">Year: </label><br>
+<input type="number" id="year" placeholder="Enter year" required>
+<br><br>
+
+<button class="btn" onclick="checkYear()">Check Year</button>
+
+<p class="result">RESULT : </p>   
+
+
+<!-- QUESTION# 3-->
+
+<h1>3)Calculate the sides of triangle:</h1>
+
+<label for="Side-A">SIDE-A: </label><br>
+<input type="number" id="Side-A" placeholder="Enter side-A" required><br>
+
+<label for="Side-B">SIDE-B </label><br>
+<input type="number" id="Side-B" placeholder="Enter side-B" required><br>
+
+<label for="Side-C">SIDE-C: </label><br>
+<input type="number" id="Side-C" placeholder="Enter Side-C" required>
+<br><br>
+
+<button class="btn" onclick="calculateArea()">Calculate Area</button>
+
+<p class="result">RESULT : </p> 
+
+<!-- QUESTION #4 -->
+
+<h1>4)Calculate Average and Percentage</h1>
+
+    <label for="mark1">Mark 1: </label><br>
+    <input type="number" id="mark1" placeholder="Enter Mark 1" required><br><br>
+
+    <label for="mark2">Mark 2: </label><br>
+    <input type="number" id="mark2" placeholder="Enter Mark 2" required><br><br>
+
+    <label for="mark3">Mark 3: </label><br>
+    <input type="number" id="mark3" placeholder="Enter Mark 3" required><br><br>
+
+    <button class="btn" onclick="mainFunction()">Calculate</button>
+
+    <p class="result"></p>
+
+    <!-- QUESTION#5 -->
+
+    <h1>5)Custom `indexOf` Function</h1>
+
+    <label for="String">Enter String: </label><br>
+    <input type="text" id="String" placeholder="Enter a string"><br><br>
+
+    <label for="Char">Enter Character: </label><br>
+    <input type="text" id="Char" maxlength="1" placeholder="Enter a character"><br><br>
+
+    <button class="btn" onclick="findCharacterIndex()">Find Index</button>
+
+    <p class="result"></p>
+
+    <!-- QUESTION#6 -->
+
+    <h1>6)Remove Vowels from a Sentence</h1>
+
+    <label for="sentence">Enter Sentence: </label><br>
+    <input type="text" id="sentence" placeholder="Enter a sentence" maxlength="25"><br><br>
+
+    <button class="btn" onclick="removeVowels()">Remove Vowels</button>
+
+    <p class="result">RESULT : </p>
+
+
+
+<!-- QUESTION# 7 -->
+
+<h1>7)Count Consecutive Vowels in Text</h1>
+
+    <label for="Text">Enter Text: </label><br>
+    <input type="text" id="Text" placeholder="Enter a line of text" maxlength="100"><br><br>
+
+    <button class="btn" onclick="countVowels()">Count Vowel Pairs</button>
+
+    <p class="result"></p>
+
+
+<!-- QUESTION # 8 -->
+<h1>8)Convert Distance from Kilometers</h1>
+
+<label for="kilometers">Enter Distance in Kilometers: </label><br>
+<input type="number" id="kilometers" placeholder="Enter distance" step="any" required><br><br>
+
+<button class="btn" onclick="convertDistance()">Convert Distance</button>
+
+<p  id="meters"></p>
+<p id="feet"></p>
+<p id="inches"></p>
+<p id="centimeters"></p>
+
+<!-- QUESTION#9 -->
+<h1>9)Overtime Pay Calculation</h1>
+
+    <label for="hoursWorked">Enter Total Hours Worked: </label><br>
+    <input type="number" id="hoursWorked" placeholder="Enter hours worked" required><br><br>
+
+    <button class="btn" onclick="calculateOvertime()">Calculate Overtime Pay</button>
+
+    <p class="result"></p>
+
+
+    <!-- QUESTION #10 -->
+
+    <h1>10)Currency Note Calculator</h1>
+
+    <label for="amount">Enter Amount to Withdraw (in hundreds): </label><br>
+    <input type="number" id="amount" placeholder="Amount in hundreds" required><br><br>
+
+    <button class="btn" onclick="calculateNotes()">Calculate Currency Notes</button>
+
+    <p class="result">RESULT : </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="./script.js"></script>   
+</body>
+</html>
